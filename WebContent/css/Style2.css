@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-size: 0.9rem;
+	font-family: "verdana, arial, helvetica, sans-serif";
+	padding: 15px 0 0 0;
+	background: blanchedalmond;
+}
+
+#big {
+	width: 1020px;
+	margin: 0 auto;
+	background: url(../img/sky.jpg) center;
+}
+
+#header {
+	padding: 25px 15px 25px 15px;
+	margin: 0 10px 0 10px;
+	background: url(../img/sea.jpg) center;
+}
+
+#title {
+	padding: 0;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+#title a:link, #title a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#date {
+	float: right;
+	padding: 10px 10px 10px;
+	height: 30px;
+	color: red;
+	text-align: right;
+}
+
+#middle {
+	padding: 0 15px;
+	margin: 3px 10px 10px 3px;
+	background: url(../img/wall.jpg) repeat-x bottpm;
+	color:lightseagreen;
+}
+
+#middle h1 {
+	color: black;
+	padding: 5px 0 0 0;
+	margin: 0 0 15px 0;
+	font-size: 1.5em;
+}
+
+.form_table {
+	width: 100%;
+	margin: auto;
+	border: #85C329 solid 1px;
+}
+
+.form_table th {
+	padding: 5px 10px;
+	background-color: #74A8F5;
+	color: #F0F8FF;
+	border: #EEEEEE solid 1px;
+}
+
+.form_table td {
+	padding: 5px 10px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: floralwhite;
+	border: #EEEEEE solid 1px;
+}
+
+.form_table td img {
+	height: 32px;
+	border: none;
+}
+
+#tail {
+	background: url(../img/sea.jpg) repeat-x top;
+	color: lightseagreen;
+	padding: 0 10px 13px 10px;
+}
+
+#tail #tail_bg {
+	padding: 0px 15px 20px 15px;
+}

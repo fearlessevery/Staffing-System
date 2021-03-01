@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	margin: 0; <!-- 边框与边框之间的距离-- > font-size : 70%;
+	font-family: verdana, arial, helvetica, sans-serif;
+	padding: 15px 15px 25px 15px;
+	background: #eeeeee;
+}
+
+#big {
+	width: 300px;
+	margin: 0 auto;
+	background: url(../img/mai.jpg) repeat-x bottom;<!--图片和jsp文件未在同一文件夹下，前面加../绝对路径的意思-->
+}
+
+
+#middlee {
+	padding: 0 15px;
+	margin: 10px 10px 10px 10px;
+	background: url(../img/mai.jpg) repeat-x bottom;
+	color: #666666;
+}
+
+#middlee h1 {
+	margin: 0px 0 15px 0;
+	font-size: 2em;
+	font-family: "trebuchet ms", arial, helvetica;
+	padding: 30px 0 0 0;
+	color: black;
+}
